@@ -22,4 +22,4 @@ app.use(express.json()); // this tells the application that we will be using the
 
 // connections and listeners
 
-app.listen(5000, () => console.lg("Server Open"));
+app.listen(5000, () => console.log("Server Open"));
